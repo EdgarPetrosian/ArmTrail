@@ -38,7 +38,20 @@
             "backgroundColor": "#000000"
           }
         }
-      ]
+      ],
+      [
+        "@rnmapbox/maps",
+        {
+          "RNMapboxMapsDownloadToken": "sk.eyJ1IjoiZWRnYXJwZXRyb3NpYW4iLCJhIjoiY21md3V3bDZwMDNnNzJpc2YwMWdxbWx0bCJ9.S0LYZLY3olhHKmk_OtNn9A",
+          "RNMapboxMapsVersion": "11.0.0"
+        }
+      ],
+      // [
+      //   "expo-location",
+      //   {
+      //     "locationWhenInUsePermission": "Show current location on map."
+      //   }
+      // ]
     ],
     "experiments": {
       "typedRoutes": true,
