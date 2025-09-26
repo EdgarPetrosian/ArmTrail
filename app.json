@@ -27,6 +27,10 @@
       "output": "static",
       "favicon": "./assets/images/favicon.png"
     },
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
     "plugins": [
       "expo-router",
       [
@@ -45,13 +49,15 @@
         "@rnmapbox/maps",
         {
           "RNMapboxMapsDownloadToken": "sk.eyJ1IjoiZWRnYXJwZXRyb3NpYW4iLCJhIjoiY21md3V3bDZwMDNnNzJpc2YwMWdxbWx0bCJ9.S0LYZLY3olhHKmk_OtNn9A",
-          "RNMapboxMapsVersion": "11.0.0"
+          "RNMapboxMapsVersion": "11.8.0"
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Show current location on map."
         }
       ]
-    ],
-    "experiments": {
-      "typedRoutes": true,
-      "reactCompiler": true
-    }
+    ]
   }
 }

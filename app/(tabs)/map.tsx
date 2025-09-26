@@ -1,21 +1,13 @@
 import { StyleSheet } from 'react-native';
 
-import ParallaxScrollView from '@/components/parallax-scroll-view';
-import { IconSymbol } from '@/components/ui/icon-symbol';
-
+import Mapbox, { Camera, LocationPuck, MapView } from '@rnmapbox/maps';
+Mapbox.setAccessToken(process.env.EXPO_PUBLIC_MAPBOX_KEY || '');
 export default function TabThreeScreen() {
   return (
-    <ParallaxScrollView
-      headerBackgroundColor={{ light: '#D0D0D0', dark: '#353636' }}
-      headerImage={
-        <IconSymbol
-          size={310}
-          color="#808080"
-          name="chevron.left.forwardslash.chevron.right"
-          style={styles.headerImage}
-        />
-      }>
-    </ParallaxScrollView>
+    <MapView style={{ flex: 1 }} styleURL='mapbox://styles/mapbox/standard-satellite'>
+      <Camera followZoomLevel={15} followUserLocation />
+      <LocationPuck puckBearingEnabled puckBearing='heading' pulsing={{ isEnabled: true }} />
+    </MapView>
   );
 }
 
