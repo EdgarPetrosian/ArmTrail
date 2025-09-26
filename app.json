@@ -9,7 +9,8 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.ArmTrail"
     },
     "android": {
       "adaptiveIcon": {
@@ -19,7 +20,8 @@
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.anonymous.ArmTrail"
     },
     "web": {
       "output": "static",
@@ -45,13 +47,7 @@
           "RNMapboxMapsDownloadToken": "sk.eyJ1IjoiZWRnYXJwZXRyb3NpYW4iLCJhIjoiY21md3V3bDZwMDNnNzJpc2YwMWdxbWx0bCJ9.S0LYZLY3olhHKmk_OtNn9A",
           "RNMapboxMapsVersion": "11.0.0"
         }
-      ],
-      // [
-      //   "expo-location",
-      //   {
-      //     "locationWhenInUsePermission": "Show current location on map."
-      //   }
-      // ]
+      ]
     ],
     "experiments": {
       "typedRoutes": true,
