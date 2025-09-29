@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native';
 
-import Mapbox, { Camera, Images, LocationPuck, MapView, ShapeSource, SymbolLayer } from '@rnmapbox/maps';
+import Mapbox, { Camera, CircleLayer, Images, LocationPuck, MapView, ShapeSource, SymbolLayer } from '@rnmapbox/maps';
 Mapbox.setAccessToken(process.env.EXPO_PUBLIC_MAPBOX_KEY || '');
 
 import { featureCollection, point } from '@turf/helpers';
@@ -12,18 +12,37 @@ export default function TabThreeScreen() {
   const points = trees.map(tree => point([tree.longitude, tree.latitude]))
 
   return (
-    <MapView style={{ flex: 1 }} styleURL='mapbox://styles/mapbox/standard-satellite'>
-      <Camera followZoomLevel={15} followUserLocation />
+    <MapView style={{ flex: 1 }} styleURL='mapbox://styles/mapbox/dark-v11'>
+      <Camera followZoomLevel={10} followUserLocation />
       <LocationPuck puckBearingEnabled puckBearing='heading' pulsing={{ isEnabled: true }} />
-      <ShapeSource id="trees" shape={featureCollection(points)} >
+      <ShapeSource id="trees" cluster shape={featureCollection(points)} >
+        <SymbolLayer
+          id="clusters-count"
+          style={{
+            textField: ['get', 'point_count'],
+          }}
+        />
+        <CircleLayer
+          id='clusters'
+          belowLayerID='clusters-count'
+          filter={['has', 'point_count']}
+          style={{
+            circleColor: '#42E100',
+            circleRadius: 20,
+            circleOpacity: 1,
+            circleStrokeWidth: 2,
+            circleStrokeColor: 'white'
+          }} />
         <SymbolLayer
           id="tree-icons"
+          filter={['!', ['has', 'point_count']]}
           style={{
             iconImage: 'tree',
             iconSize: 0.1,
             iconAllowOverlap: true,
+            iconAnchor: 'bottom',
           }}
-          
+
         />
         <Images images={{ tree }} />
       </ShapeSource>
