@@ -1,0 +1,227 @@
+[
+  {
+    "id": 1,
+    "name": "Armenian Oak",
+    "description": "A majestic native tree of Armenia, considered a national symbol. It can live for hundreds of years and provides durable wood.",
+    "location": "Dilijan National Park",
+    "latitude": 40.7440,
+    "longitude": 44.8630,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Quercus_macranthera.JPG"
+  },
+  {
+    "id": 2,
+    "name": "Juniper Tree",
+    "description": "Sacred in Armenian tradition, juniper trees are evergreen and often grow near monasteries. They are used in incense and medicine.",
+    "location": "Khosrov Forest Reserve",
+    "latitude": 39.9060,
+    "longitude": 44.8010,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Juniperus_polycarpos.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Walnut Tree",
+    "description": "Widespread in Armenia, the walnut tree provides nutritious nuts and strong, dark wood prized in furniture making.",
+    "location": "Tavush Province",
+    "latitude": 40.8950,
+    "longitude": 45.1500,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Juglans_regia_001.JPG"
+  },
+  {
+    "id": 4,
+    "name": "Wild Pear Tree",
+    "description": "Native to the Caucasus region, the wild pear tree bears small, tart fruits and contributes to Armenia’s biodiversity.",
+    "location": "Syunik Province",
+    "latitude": 39.9600,
+    "longitude": 44.5500,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Pyrus_caucasica.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Silver Poplar",
+    "description": "A tall, fast-growing tree common along rivers in Armenia. Its white-backed leaves shimmer in the wind, giving it a silver appearance.",
+    "location": "Ararat Plain (near Artashat)",
+    "latitude": 39.5200,
+    "longitude": 46.3400,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Populus_alba_leaf.JPG"
+  },
+  {
+    "id": 6,
+    "name": "Hornbeam",
+    "description": "A hardy deciduous tree found in Armenian forests. Known for its tough wood, used traditionally for tools and construction.",
+    "location": "Lori Province (near Vanadzor)",
+    "latitude": 40.8070,
+    "longitude": 44.4920,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Carpinus_orientalis.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Beech Tree",
+    "description": "Common in northern Armenia, beech trees form dense forests and provide valuable timber.",
+    "location": "Dilijan National Park",
+    "latitude": 40.7485,
+    "longitude": 44.8702,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Fagus_orientalis.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Pine Tree",
+    "description": "Armenian highlands are home to native pine forests, providing resin, timber, and shelter for wildlife.",
+    "location": "Khosrov Forest Reserve",
+    "latitude": 39.9105,
+    "longitude": 44.7950,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Pinus_sylvestris.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Apple Tree (Wild)",
+    "description": "Wild apple trees grow in Tavush, bearing small fruits that are ancestors of cultivated apples.",
+    "location": "Tavush Province",
+    "latitude": 40.8982,
+    "longitude": 45.1425,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Malus_sieversii.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Maple Tree",
+    "description": "Maples grow in Armenian forests, known for their beautiful leaves and hardwood.",
+    "location": "Lori Province (near Vanadzor)",
+    "latitude": 40.8105,
+    "longitude": 44.4982,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Acer_campestre_001.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Ash Tree",
+    "description": "Found in Syunik and southern regions, ash trees are valued for their elastic wood used in tools and furniture.",
+    "location": "Syunik Province",
+    "latitude": 39.9632,
+    "longitude": 44.5565,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Fraxinus_excelsior.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Willow Tree",
+    "description": "Willows thrive along Armenia’s rivers and streams, their flexible branches used traditionally in basket weaving.",
+    "location": "Ararat Plain (near Artashat)",
+    "latitude": 39.5255,
+    "longitude": 46.3358,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Salix_alba.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Chestnut Tree",
+    "description": "Chestnuts are found in Dilijan’s forests, their nuts used in Armenian cuisine.",
+    "location": "Dilijan National Park",
+    "latitude": 40.7422,
+    "longitude": 44.8721,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Castanea_sativa.JPG"
+  },
+  {
+    "id": 14,
+    "name": "Cypress Tree",
+    "description": "Tall and slender, cypress trees are planted near Armenian monasteries for their symbolic meaning.",
+    "location": "Khosrov Forest Reserve",
+    "latitude": 39.9128,
+    "longitude": 44.8072,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Cupressus_sempervirens.JPG"
+  },
+  {
+    "id": 15,
+    "name": "Cherry Tree (Wild)",
+    "description": "Wild cherries in Tavush provide small, sweet fruits and vibrant spring blossoms.",
+    "location": "Tavush Province",
+    "latitude": 40.8925,
+    "longitude": 45.1480,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Prunus_avium_wild.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Elm Tree",
+    "description": "Elms grow in Lori’s river valleys, known for their strong wood and shade.",
+    "location": "Lori Province (near Vanadzor)",
+    "latitude": 40.8121,
+    "longitude": 44.4905,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Ulmus_glabra.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Service Tree",
+    "description": "A rare tree in Syunik, its fruits are used in traditional medicine and food.",
+    "location": "Syunik Province",
+    "latitude": 39.9580,
+    "longitude": 44.5622,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Sorbus_domestica_fruit.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Mulberry Tree",
+    "description": "Widely planted across Armenia, mulberries are famous for making Armenian mulberry vodka (tuti oghi).",
+    "location": "Ararat Plain (near Artashat)",
+    "latitude": 39.5233,
+    "longitude": 46.3450,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Morus_alba_fruit.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Rowan Tree",
+    "description": "Rowans grow in highland forests, their red berries adding color to Armenia’s landscapes.",
+    "location": "Dilijan National Park",
+    "latitude": 40.7468,
+    "longitude": 44.8601,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Sorbus_aucuparia_fruit.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Birch Tree",
+    "description": "Birches grow in clusters in northern Armenia, easily recognized by their white bark.",
+    "location": "Lori Province (near Vanadzor)",
+    "latitude": 40.8099,
+    "longitude": 44.4955,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Betula_pendula_trunk.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Fig Tree",
+    "description": "Figs thrive in warmer parts of Armenia, especially in Ararat valley orchards.",
+    "location": "Ararat Plain (near Artashat)",
+    "latitude": 39.5270,
+    "longitude": 46.3389,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Ficus_carica_fruit.jpg"
+  },
+  {
+    "id": 22,
+    "name": "Plum Tree",
+    "description": "Wild plums are common in Tavush, their fruits used in traditional Armenian sauces like tkemali.",
+    "location": "Tavush Province",
+    "latitude": 40.8944,
+    "longitude": 45.1555,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Prunus_domestica.jpg"
+  },
+  {
+    "id": 23,
+    "name": "Hackberry Tree",
+    "description": "Hackberry trees are found in Khosrov, with sweet edible fruits and strong wood.",
+    "location": "Khosrov Forest Reserve",
+    "latitude": 39.9082,
+    "longitude": 44.8035,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Celtis_occidentalis.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Linden Tree",
+    "description": "Known for fragrant blossoms used in tea, linden trees grow in Dilijan forests.",
+    "location": "Dilijan National Park",
+    "latitude": 40.7505,
+    "longitude": 44.8675,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Tilia_cordata_flowers.jpg"
+  },
+  {
+    "id": 25,
+    "name": "Pear Tree (Cultivated)",
+    "description": "Cultivated pear varieties are widely grown in Syunik and Ararat orchards.",
+    "location": "Syunik Province",
+    "latitude": 39.9611,
+    "longitude": 44.5538,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Pyrus_communis_fruit.jpg"
+  }
+]
