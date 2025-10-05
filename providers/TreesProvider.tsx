@@ -7,6 +7,7 @@ const TreeContext = createContext({});
 export default function TreeProvider({ children }: PropsWithChildren) {
     const [selectedTree, setSelectedTree] = useState();
     const [direction, setDirection] = useState();
+    const [isNearby, setIsNearby] = useState(false);
 
     useEffect(() => {
         const fetchDirections = async () => {

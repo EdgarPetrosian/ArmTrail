@@ -8,7 +8,7 @@ import {
   BottomSheetView
 } from '@gorhom/bottom-sheet';
 import React, { useCallback, useRef, useState } from 'react';
-import { Button, Image, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { Image, ScrollView, StyleSheet, Text, View } from 'react-native';
 import TreeMarkers from './TreeMarkers';
 const MainBottomSheet = () => {
   const [markerInfo, setMarkerInfo] = useState<TreesInformationTypes>();
@@ -27,7 +27,7 @@ const MainBottomSheet = () => {
   }, []);
 
   const duration = formatDuration(routDuration);
-  const distance = formatDistance(routDuration);
+  const distance = formatDistance(routDistance);
 
   // renders
   return (
@@ -63,9 +63,6 @@ const MainBottomSheet = () => {
                 <Text style={styles.durationStyle}>{` Distance - ${distance}`}</Text>
               </View>
             </ScrollView>
-          </View>
-          <View style={styles.bottomContainer}>
-            <Button title='Start' />
           </View>
         </BottomSheetView>
       </BottomSheetModal>
