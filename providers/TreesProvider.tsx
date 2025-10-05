@@ -29,8 +29,8 @@ export default function TreeProvider({ children }: PropsWithChildren) {
                 setSelectedTree,
                 direction,
                 directionCoordinates: direction?.routes?.[0]?.geometry?.coordinates,
-                routDuration: direction?.routes?.[0]?.geometry?.duration,
-                routDistance: direction?.routes?.[0]?.geometry?.distance,
+                routDuration: direction?.routes?.[0]?.duration,
+                routDistance: direction?.routes?.[0]?.distance,
             }}>
             {children}
         </TreeContext.Provider>

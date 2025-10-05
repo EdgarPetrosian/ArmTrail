@@ -5,7 +5,7 @@ import { CircleLayer, Images, ShapeSource, SymbolLayer } from "@rnmapbox/maps";
 import { OnPressEvent } from '@rnmapbox/maps/lib/typescript/src/types/OnPressEvent';
 import { featureCollection, point } from '@turf/helpers';
 
-export default function TreeMarkers() {
+export default function TreeMarkers({ modalPress }) {
     const { setSelectedTree } = useTree();
 
     const points = trees.map(treeData => point([treeData.longitude, treeData.latitude], { treeData }));
@@ -13,6 +13,7 @@ export default function TreeMarkers() {
     const onPointPress = async (event: OnPressEvent) => {
         if (event.features[0].properties?.treeData) {
             setSelectedTree(event.features[0].properties.treeData);
+            modalPress(event.features[0].properties.treeData);
         }
     };
     return (
