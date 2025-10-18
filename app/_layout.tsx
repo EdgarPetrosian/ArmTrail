@@ -8,6 +8,7 @@ import { useColorScheme } from '@/hooks/use-color-scheme';
 import TreeProvider from '@/providers/TreesProvider';
 import { BottomSheetModalProvider } from '@gorhom/bottom-sheet';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
+import AuthProvider from '../providers/AuthProvider';
 
 export const unstable_settings = {
   anchor: '(tabs)',
@@ -19,15 +20,14 @@ export default function RootLayout() {
   return (
     <GestureHandlerRootView style={styles.container}>
       <BottomSheetModalProvider>
-        <TreeProvider>
-          <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
-            <Stack>
-              <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-              <Stack.Screen name="modal" options={{ presentation: 'modal', title: 'Modal' }} />
-            </Stack>
-            <StatusBar style="light" />
-          </ThemeProvider>
-        </TreeProvider>
+        <AuthProvider>
+          <TreeProvider>
+            <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
+              <Stack screenOptions={{ headerShown: false }} />
+              <StatusBar style="light" />
+            </ThemeProvider>
+          </TreeProvider>
+        </AuthProvider>
       </BottomSheetModalProvider>
     </GestureHandlerRootView>
   );

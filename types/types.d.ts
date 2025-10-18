@@ -28,3 +28,9 @@ type TreesInformationTypes = {
     longitude: number;
     image_url: string;
 }
+
+type AuthContextType = {
+  isAuthenticated: boolean;
+  session?: Session | null;
+  userId?: string;
+};

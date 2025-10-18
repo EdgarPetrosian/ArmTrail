@@ -10,6 +10,7 @@ import {
 import React, { useCallback, useRef, useState } from 'react';
 import { Image, ScrollView, StyleSheet, Text, View } from 'react-native';
 import TreeMarkers from './TreeMarkers';
+
 const MainBottomSheet = () => {
   const [markerInfo, setMarkerInfo] = useState<TreesInformationTypes>();
   const { routDuration, routDistance } = useTree();
@@ -81,9 +82,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#d1cdcd',
   },
   contentContainer: {
-    flex: 1,
     flexDirection: 'row',
-    backgroundColor: '#d1cdcd'
   },
   stretch: {
     width: '40%',
