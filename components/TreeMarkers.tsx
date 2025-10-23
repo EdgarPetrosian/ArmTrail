@@ -1,14 +1,14 @@
 import tree from '@/assets/images/forest.png';
-import trees from '@/data/trees.json';
+// import trees from '@/data/trees.json';
 import { useTree } from "@/providers/TreesProvider";
 import { CircleLayer, Images, ShapeSource, SymbolLayer } from "@rnmapbox/maps";
 import { OnPressEvent } from '@rnmapbox/maps/lib/typescript/src/types/OnPressEvent';
 import { featureCollection, point } from '@turf/helpers';
 
 export default function TreeMarkers({ modalPress }) {
-    const { setSelectedTree } = useTree();
+    const { setSelectedTree, nearbyPlants } = useTree();
 
-    const points = trees.map(treeData => point([treeData.longitude, treeData.latitude], { treeData }));
+    const points = nearbyPlants.map(treeData => point([treeData.longitude, treeData.latitude], { treeData }));
 
     const onPointPress = async (event: OnPressEvent) => {
         if (event.features[0].properties?.treeData) {

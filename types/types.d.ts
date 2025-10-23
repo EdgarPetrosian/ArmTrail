@@ -34,3 +34,8 @@ type AuthContextType = {
   session?: Session | null;
   userId?: string;
 };
+
+type TreeContextType = {
+  setSelectedTree: (tree: any) => void;
+  nearbyPlants: any[]; 
+};
